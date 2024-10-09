@@ -138,7 +138,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\OpenGLGLFW\glad.c" />
+    <ClCompile Include="..\..\OpenGLGLFW\OpenGLGLFW\EBO.cpp" />
+    <ClCompile Include="..\..\OpenGLGLFW\OpenGLGLFW\VAO.cpp" />
+    <ClCompile Include="..\..\OpenGLGLFW\OpenGLGLFW\VBO.cpp" />
     <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\OpenGLGLFW\OpenGLGLFW\EBO.h" />
+    <ClInclude Include="..\..\OpenGLGLFW\OpenGLGLFW\VAO.h" />
+    <ClInclude Include="..\..\OpenGLGLFW\OpenGLGLFW\VBO.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
